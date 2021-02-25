@@ -70,7 +70,7 @@ nav {
 	background-image: url("../images/header.jpg"); 
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: auto;
+	margin-top: auto; 
 	padding-bottom: 10px;
 	width: 100%; 
 }
@@ -81,6 +81,7 @@ nav {
 	height: 570px; 
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: auto;  
 	padding-left: 12px;
 	padding-right: 12px;
 }
@@ -106,4 +107,11 @@ body, html {
   width: 100%;
   margin: 0 !important;
   padding: 0 !important;
+}
+.myfont { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin-top: 15px; 
+	font-family: 'Oi', cursive;
 }
